@@ -9,3 +9,4 @@ C:\Users\rawci\source\repos\AdventOfCode\FileReader\obj\Debug\net6.0\FileReader.
 C:\Users\rawci\source\repos\AdventOfCode\FileReader\obj\Debug\net6.0\FileReader.dll
 C:\Users\rawci\source\repos\AdventOfCode\FileReader\obj\Debug\net6.0\ref\FileReader.dll
 C:\Users\rawci\source\repos\AdventOfCode\FileReader\obj\Debug\net6.0\FileReader.pdb
+C:\Users\rawci\source\repos\AdventOfCode\FileReader\obj\Debug\net6.0\FileReader.csproj.AssemblyReference.cache
