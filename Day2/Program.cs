@@ -1,5 +1,4 @@
 ﻿string fileContents = await FileReader.ReadFileAsync();
-
 void project1()
 {
     List<string> sbMoves = FileReader.FileToStringList(fileContents);

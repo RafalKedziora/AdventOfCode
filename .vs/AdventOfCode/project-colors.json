@@ -15,7 +15,17 @@
       "ProjectGuid": "76558145-2032-4810-8c08-e17e52c39d26",
       "DisplayName": "FileReader",
       "ColorIndex": 2
+    },
+    "f57d657e-94ac-4834-a7c8-4bd703827471": {
+      "ProjectGuid": "f57d657e-94ac-4834-a7c8-4bd703827471",
+      "DisplayName": "Day3",
+      "ColorIndex": 3
+    },
+    "3806ff89-9447-4235-bfa7-4282d040b919": {
+      "ProjectGuid": "3806ff89-9447-4235-bfa7-4282d040b919",
+      "DisplayName": "Day3",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
