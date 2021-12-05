@@ -1,9 +1,9 @@
 ﻿public class FileReader
 {
-    public static async Task<string> ReadFileAsync()
+    public static async Task<string> ReadFileAsync(string name = "input.txt")
     {
         string fileContents;
-        using (var reader = File.OpenText("input.txt"))
+        using (var reader = File.OpenText(name))
             fileContents = await reader.ReadToEndAsync();
         return fileContents;
     }
