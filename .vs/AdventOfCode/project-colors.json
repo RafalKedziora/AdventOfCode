@@ -35,7 +35,12 @@
       "ProjectGuid": "373c8162-64f8-4e50-a48e-46d54c3c3cbc",
       "DisplayName": "Day5",
       "ColorIndex": 6
+    },
+    "921d13fb-58d9-474b-a8d1-d40c8d2d25ae": {
+      "ProjectGuid": "921d13fb-58d9-474b-a8d1-d40c8d2d25ae",
+      "DisplayName": "Day6",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
