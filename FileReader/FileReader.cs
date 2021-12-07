@@ -8,13 +8,13 @@
         return fileContents;
     }
 
-    public static List<int> FileToIntList(string listOfStrings)
+    public static List<int> FileToIntList(string listOfStrings, string splitValue = "\n")
     {
-        return listOfStrings.Split("\n", StringSplitOptions.RemoveEmptyEntries).Select(x => Int32.Parse(x)).ToList();
+        return listOfStrings.Split(splitValue, StringSplitOptions.RemoveEmptyEntries).Select(x => Int32.Parse(x)).ToList();
     }
 
-    public static List<string> FileToStringList(string listOfStrings)
+    public static List<string> FileToStringList(string listOfStrings, string splitValue = "\n")
     {
-        return listOfStrings.Split("\n", StringSplitOptions.RemoveEmptyEntries).ToList();
+        return listOfStrings.Split(splitValue, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
 }
