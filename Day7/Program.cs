@@ -22,26 +22,34 @@ void project1()
 
 void project2()
 {
-    double average = content.Average();
-    int bestPosition;
-
-    if(average - Math.Floor(average) >= 0.6)
-        bestPosition = (int)Math.Ceiling(average);
-    else
-        bestPosition = (int)Math.Floor(average);
-    
-    int fuel = 0;
-    foreach (var distance in content)
+    int[] fuelInPositions = new int[2];
+    int[] possiblePositions = new int[2];
+    int i = 0;
+    while (i<2)
     {
-        int steps;
-        if (distance > bestPosition)
-            steps = distance - bestPosition;
-        else
-            steps = bestPosition - distance;
+        switch (i)
+        {
+            case 0:
+                possiblePositions[0] = (int)Math.Ceiling(content.Average());
+                break;
+            case 1:
+                possiblePositions[1] = (int)Math.Floor(content.Average());
+                break;
+            default: break;
+        }
+        foreach (var distance in content)
+        {
+            int steps;
+            if (distance > possiblePositions[i])
+                steps = distance - possiblePositions[i];
+            else
+                steps = possiblePositions[i] - distance;
 
-        fuel += (int)((1 + steps) / 2.0 * steps);
+            fuelInPositions[i] += (int)((1 + steps) / 2.0 * steps);
+        }
+        i++;
     }
-    Console.WriteLine(fuel);
+    Console.WriteLine(fuelInPositions.Min());
 }
 
 project1();
