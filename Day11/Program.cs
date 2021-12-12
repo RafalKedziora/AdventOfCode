@@ -30,7 +30,7 @@ static void AddEnergyAdjacent(int x, int y, int sizeX, int sizeY, ref int flashe
             }
 }
 
-void Project1(int project)
+void Day11(int project)
 {
     int sizeX = content[0].Length;
     int sizeY = content.Count;
@@ -71,5 +71,5 @@ void Project1(int project)
     Console.WriteLine(project == 1? flashed : result);
 }
 
-Project1(1);
-Project1(2);
+Day11(1);
+Day11(2);
